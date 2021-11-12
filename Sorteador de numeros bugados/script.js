@@ -1,4 +1,3 @@
-//variavel com os numeros para a array
 var sort = document.querySelector('input#numsort')
 var maximo = document.querySelector('input#maximo')
 var resultado = document.querySelector('div#valor')
