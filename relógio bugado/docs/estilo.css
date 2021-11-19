@@ -1,0 +1,87 @@
+body{
+    font:normal 14pt Arial;
+    background-color: #8FC6FA;
+    color: rgb(32, 32, 32);
+}
+header{
+    text-align: center;
+    color:white;
+    padding: 5px;
+    
+}
+#msgimg{
+    display: inline-block;
+    background-color:white;
+    font:normal 16pt Arial;
+    text-align: center;
+
+    border-radius: 20px;
+    padding: 10px;
+    width: min-content;
+    height: min-content;
+    margin:5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    
+}
+#videos{
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left:300pxpx;
+    background-color:white;
+    font:normal 16pt Arial;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    margin:5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+
+}
+.container img{
+    max-width: 130px;
+    max-height: 130px;
+}
+.container video{
+    max-height: 200px;
+    min-height: auto
+}
+#msg{
+    background-color:white;
+    font:normal 16pt Arial;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+}
+footer{
+    text-align: center;
+    color:white;
+    font-style: italic;
+    padding: 5px;
+    position: fixed;
+}
+#festinha{
+    display: none;
+    width: min-content;
+    height: min-content;
+}
+#btfestinha{
+    display: none;
+    padding: 0;
+    background:-webkit-gradient(bottom,rgba(45, 212, 129, 0.533),rgb(140, 221, 180));
+}
+#greetings{
+    background-color:white;
+    font:normal 16pt Arial;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+}

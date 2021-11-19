@@ -17,8 +17,8 @@ function confirmar(){
     
 }
 function sortear(){
-    resultado.innerHTML = ''
-            let numsort=Number(sort.value)
+            resultado.innerHTML = ''
+            let numsort = Number(sort.value)
             let quantNum = Number(maximo.value)
             function aleatorio(num){
                 return Math.floor(Math.random()* num + 1)
