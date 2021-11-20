@@ -11,7 +11,7 @@ function carregar(){
     hora = data.getHours()
     minutos = data.getMinutes()
     segundos = data.getSeconds()
-    
+    document.body.style.backgroung = '#3F3F40'
     let msg = document.getElementById('msg')
     //Horários
     if(minutos<10){
@@ -49,7 +49,7 @@ function carregar(){
         festa.innerHTML=''   
     }else{
         imagem.src = 'conteudo/noite.png'
-        document.body.style.backgroung = '#3F3F40'
+        document.body.style.background = '#3F3F40'
         greetings.innerHTML = `Boa noite!`
         btfesta.style.display='block'
     }
